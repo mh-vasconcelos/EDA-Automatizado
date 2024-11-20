@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 from matplotlib import pyplot as plt
-import streamlit_authenticator as stauth
 
 username = st.secrets["general"]["username"]
 password = st.secrets["general"]["password"]
