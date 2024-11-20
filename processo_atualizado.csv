@@ -1,0 +1,37 @@
+ID do Processo,Nome do Processo,Etapa,Tempo (minutos),Tipo de Problema,Frequência,Status,Atendente,Método de Contato,Resolução,Satisfação do Cliente
+1,Atendimento Telefônico,Recebimento da Ligação,2,Dúvida sobre produto,Alta,Concluído,João,Telefone,Resolvido,4.0
+1,Atendimento Telefônico,Resolução da Dúvida,5,Problema técnico,Média,Concluído,João,Telefone,Resolvido,5.0
+1,Atendimento Telefônico,Encerramento da Ligação,1,Nenhum,Alta,Concluído,João,Telefone,Resolvido,4.0
+2,Atendimento Presencial,Recepção do Cliente,3,Cliente sem informação,Média,Concluído,Maria,Presencial,Resolvido,3.0
+2,Atendimento Presencial,Análise da Demanda,10,Problema complexo,Baixa,Concluído,Maria,Presencial,Resolvido,4.0
+2,Atendimento Presencial,Resolução da Demanda,15,Problema de estoque,Alta,Concluído,Maria,Presencial,Resolvido,2.0
+2,Atendimento Presencial,Encerramento do Atendimento,2,Nenhum,Média,Concluído,Maria,Presencial,Resolvido,5.0
+3,Processo de Reembolso,Recebimento da Solicitação,1,Documentos faltantes,Alta,Aberto,Ana,Online,Pendente,
+3,Processo de Reembolso,Verificação de Documentos,5,Nenhum,Média,Aberto,Ana,Online,Pendente,
+3,Processo de Reembolso,Aprovação/Reprovação,2,Inconsistências,Baixa,Aberto,Ana,Online,Pendente,
+3,Processo de Reembolso,Liberação do Reembolso,3,Nenhum,Média,Concluído,Ana,Online,Resolvido,5.0
+4,Cadastro de Cliente Online,Preenchimento do Formulário,5,Erros no formulário,Alta,Concluído,Sistema,Online,Resolvido,4.0
+4,Cadastro de Cliente Online,Validação dos Dados,2,Dados incorretos,Média,Concluído,Sistema,Online,Resolvido,5.0
+4,Cadastro de Cliente Online,Confirmação do Cadastro,1,Nenhum,Alta,Concluído,Sistema,Online,Resolvido,5.0
+5,Atendimento Chat,Abertura do Chat,1,Nenhum,Alta,Concluído,Carlos,Chat,Resolvido,4.0
+5,Atendimento Chat,Resposta ao Cliente,3,Dúvida Simples,Alta,Concluído,Carlos,Chat,Resolvido,5.0
+5,Atendimento Chat,Encerramento do Chat,1,Nenhum,Alta,Concluído,Carlos,Chat,Resolvido,4.0
+6,Atendimento Email,Recebimento do Email,1,Nenhum,Média,Aberto,Beatriz,Email,Pendente,
+6,Atendimento Email,Resposta ao Email,10,Problema complexo,Baixa,Aberto,Beatriz,Email,Pendente,
+6,Atendimento Email,Encerramento do Email,1,Nenhum,Média,Concluído,Beatriz,Email,Resolvido,3.0
+7,Devolução de Produto,Recebimento da Solicitação,2,Nenhum,Baixa,Aberto,Fernando,Telefone,Pendente,
+7,Devolução de Produto,Autorização da Devolução,5,Inconsistências,Baixa,Aberto,Fernando,Telefone,Pendente,
+7,Devolução de Produto,Envio da Autorização,1,Nenhum,Baixa,Concluído,Fernando,Telefone,Resolvido,4.0
+8,Troca de Produto,Recebimento da Solicitação,2,Nenhum,Média,Aberto,Gabriela,Presencial,Pendente,
+8,Troca de Produto,Verificação do Produto,5,Produto danificado,Alta,Aberto,Gabriela,Presencial,Pendente,
+8,Troca de Produto,Realização da Troca,10,Nenhum,Média,Concluído,Gabriela,Presencial,Resolvido,5.0
+9,Pagamento Online,Início do Pagamento,1,Nenhum,Alta,Concluído,Sistema,Online,Resolvido,5.0
+9,Pagamento Online,Processamento do Pagamento,2,Erro de pagamento,Baixa,Aberto,Sistema,Online,Pendente,
+9,Pagamento Online,Confirmação do Pagamento,1,Nenhum,Alta,Concluído,Sistema,Online,Resolvido,5.0
+10,Entrega de Produto,Preparação da Entrega,3,Estoque indisponível,Alta,Aberto,Lucas,Online,Pendente,
+10,Entrega de Produto,Envio para Transporte,5,Nenhum,Média,Aberto,Lucas,Online,Pendente,
+10,Entrega de Produto,Entrega ao Cliente,2,Nenhum,Média,Concluído,Lucas,Online,Resolvido,4.0
+11,Cancelamento de Pedido,Recebimento do Pedido,1,Nenhum,Alta,Concluído,Rafael,Telefone,Resolvido,5.0
+11,Cancelamento de Pedido,Processamento do Cancelamento,3,Pedido já enviado,Baixa,Aberto,Rafael,Telefone,Pendente,
+11,Cancelamento de Pedido,Confirmação do Cancelamento,1,Nenhum,Alta,Concluído,Rafael,Telefone,Resolvido,4.0
+8,Troca de Produto,Realização da Troca,7,Produto danificado,Média,Resolvido,Gabriela,Telefone,Resolvido,3.0
