@@ -2,13 +2,8 @@ import pandas as pd
 import streamlit as st
 from matplotlib import pyplot as plt
 
-
-
-username = 'Vini'
-
 # Título da aplicação
 st.title("Análise de Dados - EDA")
-st.write(f"Bem-vindo, {username}!")
 
 # Upload do arquivo CSV
 uploaded_file = st.file_uploader("Envie o arquivo CSV (processo_atualizado.csv)", type=["csv"])
