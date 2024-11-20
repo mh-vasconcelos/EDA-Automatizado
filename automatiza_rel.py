@@ -2,11 +2,9 @@ import pandas as pd
 import streamlit as st
 from matplotlib import pyplot as plt
 
-username = st.secrets["general"]["username"]
-password = st.secrets["general"]["password"]
 
-# Acessando a chave de cookie
-cookie_key = st.secrets["cookie"]["key"]
+
+username = 'Vini'
 
 # Título da aplicação
 st.title("Análise de Dados - EDA")
