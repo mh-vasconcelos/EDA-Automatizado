@@ -11,7 +11,7 @@ cookie_key = st.secrets["cookie"]["key"]
 
 # Título da aplicação
 st.title("Análise de Dados - EDA")
-st.subheader(f"Bem-vindo, {username}!")
+st.write(f"Bem-vindo, {username}!")
 
 # Upload do arquivo CSV
 uploaded_file = st.file_uploader("Envie o arquivo CSV (processo_atualizado.csv)", type=["csv"])
